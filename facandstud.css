@@ -1,0 +1,104 @@
+h1{
+  color : #8c1515;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.fntsiz{
+  font-size : 1.5rem;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-expand-lg {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+     justify-content: space-between; 
+}
+
+.navbar-nav {
+    padding-right: 10%!important;
+   
+}
+
+.navbar-brand {
+    display: flex;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 3.5rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.allig{
+  padding-right: 20% !important;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: auto;
+}
+
+#mainnav
+{
+  size : 10px;
+  padding-left: 15%
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h3{
+  color : grey;
+  padidng : 2%;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body{
+
+ background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  /*background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right;
+  background-size: cover;*/
+
+  opacity:0.9;
+  -webkit-filter: blur(0px);
+  /*padding: 2%;*/
+  background-position: center;
+}
+
+
+.bg-dark {
+    background-color: #8c1515!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,0.8);
+}
